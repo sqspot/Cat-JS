@@ -1,5 +1,9 @@
 {"spider":"./f.jar",
  "sites":[
+{"key":"kunyu77","name":"琨娱七七[cat]","type":3,"api":"./cat/kunyu77_open.js"},
+{"key":"czzy","name":"厂长资源[cat]","type":3,"api":"./cat/czzy_open.js"},
+{"key":"kkys","name":"快看影视[cat]","type":3,"api":"./cat/kkys_open.js"},
+{"key":"ikanbot","name":"爱看爬虫[cat]","type":3,"api":"./cat/ikanbot_open.js"},
 {"key":"好趣网","name":"电视 | 好趣网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/好趣网.js"},
 {"key":"道长直播2点播","name":"电视 | 直播[js]","type":3,"api":"./lib/live2cms.js","ext":"./lib/live2mv_data.json"},
 //{"key":"路飞直播2点播","name":"电视 | 路飞[js]","type":3,"api":"./lib/lf_live_min.js","ext":"./lib/lf_live.json"},
