@@ -1,5 +1,7 @@
 {"spider":"./f.jar",
  "sites":[
+{"key":"csp_woggcli","name":"玩偶(cli)","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg"},
+{"key":"UYun","name":"Up搜(cli)","type":4,"api":"http://home.jundie.top:9520/spider/csp_UpYun"},
 {"key":"kunyu77","name":"琨娱七七[cat]","type":3,"api":"./cat/kunyu77_open.js"},
 {"key":"czzy","name":"厂长资源[cat]","type":3,"api":"./cat/czzy_open.js"},
 {"key":"kkys","name":"快看影视[cat]","type":3,"api":"./cat/kkys_open.js"},
