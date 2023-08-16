@@ -69,8 +69,7 @@ var rule = {
 							if (index == targetindex){
 								let title = pdfh(it, 'a&&Text');
 								log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-								//burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(burl);
-								burl = "http://127.0.0.1:9978/push/" + encodeURIComponent(burl);
+								burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(burl);
 								log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
 								let loopresult = title + '$' + burl;
 								LISTS.push([loopresult]);
