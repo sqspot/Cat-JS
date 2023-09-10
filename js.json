@@ -228,7 +228,7 @@
 {"key":"bili_open","name":"哔哩貓","type":3,"api":"https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js","searchable":1,"changeable":0,"ext":{"categories":"沙雕动画#沙雕穿越#沙雕","cookie":""}},
 {"key":"mybili","name":"my哔哩[cat]","type":3,"api":"./cat/mybili_open.js"},
 {"key":"kkys","name":"快看影视[cat]","type":3,"api":"./cat/kkys_open.js"},
-{"key":"ikanbot","name":"爱看爬虫[cat]","type":3,"api":"./cat/ikanbot_open.js"},
+{"key":"ikanbot","name":"爱看爬虫[cat]","type":3,"api":"./cat/lib/cat.js","ext":"./cat/ikanbot_open.js"},
 {"key":"ikanbot-not-async","name":"爱看爬虫2[cat]","type":3,"api":"./cat/ikanbot-not-async.js"},
 {"key":"subaibai","name":"素白白[cat]","type":3,"api":"./cat/subaibai_open.js"},
 //{"key":"wogg","name":"玩偶gg","type":3,"api":"./cat/wogg.js","ext":"alitoken"},
