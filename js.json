@@ -6,6 +6,7 @@
 {"key":"drpy_js_武享吧","name":"体育 | 武享吧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/武享吧.js"},
 {"key":"drpy_js_310直播","name":"体育 | 310直播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/310直播.js"},
 {"key":"drpy_js_荐片","name":"影视 | 荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js","playerType":"1"},
+{"key":"drpy_rrdyw","name":"影视 | rrdyw[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/rrdyw.js"},
 {"key":"drpy_js_4KHDR[磁]","name":"磁力 | 4KHDR[磁][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4KHDR[磁].js"},
 {"key":"drpy_js_6V新版[磁]","name":"磁力 | 6V新版[磁][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/6V新版[磁].js"},
 {"key":"drpy_js_磁力熊[磁]","name":"磁力 | 磁力熊[磁][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/磁力熊[磁].js"},
