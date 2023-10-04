@@ -1,0 +1,7 @@
+// clan://localhost/drpy/多倉.txt
+{"storeHouse":[
+{"sourceName":"🇭jsHttp(1)","sourceUrl":"https://raw.githubusercontent.com/sqspot/tac/main/jshttp(1).js"},
+{"sourceName":"🇭jsHttp","sourceUrl":"https://raw.githubusercontent.com/sqspot/tac/main/jshttp.js"},
+{"sourceName":"🇱jsHttp(1)","sourceUrl":"clan://localhost/drpy/jshttp(1).js"},
+{"sourceName":"🇱jsHttp(1)","sourceUrl":"clan://localhost/drpy/jshttp.js"}
+]}
