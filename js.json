@@ -1,7 +1,7 @@
 {"spider":"./f.jar",
  "sites":[
 //{"key":"69mj","name":"美剧♻️业余","type":3,"api":"./cat/AppYsV2.js","ext":"https://www.69mj.com/xgapp.php/v2/"}, 
-//{"key":"bulei","name":"不累[cat]","type":3,"api":"./cat/bulei_open.js"},
+{"key":"bulei","name":"不累[cat]","type":3,"api":"./cat/bulei_open.js"},
 //{"key":"lbts","name":"老白[cat]","type":3,"api":"./cat/lbgs_book_open.js"},
 //{"key":"yqk","name":"一起看[cat]","type":3,"api":"./cat/yqktv_open.js"},
 {"key":"nangua","name":"南瓜影视[cat]","type":3,"api":"./cat/ng_open.js"},
@@ -206,7 +206,6 @@
 {"key":"drpy_js_星辰影院","name":"影视 | 星辰影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/星辰.js"},
 {"key":"drpy_js_追剧啦儿","name":"影视 | 追剧啦儿[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/追剧啦.js"},
 {"key":"drpy_js_子子影视","name":"影视 | 子子影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/子子影视.js"},
-{"key":"drpy_js_往往影视","name":"影视 | 往往影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/往往影视.js"},
 {"key":"量子","name":"量子[fm]","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","台湾剧","香港剧","欧美剧","记录片","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫","体育","足球","篮球","网球","斯诺克"]},
 {"key":"非凡","name":"非凡[fm]","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["国产动漫","日韩动漫","国产剧","韩国剧","日本剧","电影片","连续剧","综艺片","动漫片","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","香港剧","欧美剧","记录片","台湾剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","欧美动漫","港台动漫","海外动漫"]},
 {"key":"櫻花","name":"樱花[fm]","type":3,"api":"csp_Ying"},
