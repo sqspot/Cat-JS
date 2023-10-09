@@ -4,15 +4,15 @@ var rule = {
     // homeUrl:'/x/web-interface/search/type?search_type=video&keyword=小姐姐4K&page=1',
     homeUrl:'/x/web-interface/ranking/v2?rid=0&type=origin', // 排行 > 排行榜 > 原创
     url:'/x/web-interface/search/type?search_type=videofyfilter',
-    class_name:'推荐&抖音热歌&经典无损音乐合集&索尼音乐中国&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV&演唱会&白噪音&知名UP主&说案&解说&演讲&时事&探索发现&纪录片&平面设计教学&软件教程&实用教程&旅游&风景&食谱&美食&搞笑&球星&动物世界&相声小品&戏曲&儿童&小姐姐&热门&旅行探险',
-    class_url:'推荐&抖音热歌&经典无损音乐合集&索尼音乐中国&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV4K&演唱会4K&白噪音4K&知名UP主&说案&解说&演讲&时事&探索发现超清&纪录片超清&平面设计教学&软件教程&实用教程&旅游&风景4K&食谱&美食超清&搞笑&球星&动物世界超清&相声小品&戏曲&儿童&小姐姐4K&热门&旅行探险',
+    class_name:'抖音热歌&经典无损音乐合集&索尼音乐中国&推荐&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV&演唱会&白噪音&知名UP主&说案&解说&演讲&时事&探索发现&纪录片&平面设计教学&软件教程&实用教程&旅游&风景&食谱&美食&搞笑&球星&动物世界&相声小品&戏曲&儿童&小姐姐&热门&旅行探险',
+    class_url:'抖音热歌&经典无损音乐合集&索尼音乐中国&推荐&帕梅拉&太极拳&健身&舞蹈&音乐&歌曲&MV4K&演唱会4K&白噪音4K&知名UP主&说案&解说&演讲&时事&探索发现超清&纪录片超清&平面设计教学&软件教程&实用教程&旅游&风景4K&食谱&美食超清&搞笑&球星&动物世界超清&相声小品&戏曲&儿童&小姐姐4K&热门&旅行探险',
     filterable: 1,
     filter_url: '&keyword={{fl.tid}}&page=fypage&duration={{fl.duration}}&order={{fl.order}}',
     filter_def:{
-        推荐:{tid:'推荐'},
-        抖音热歌:{tid:'抖音热歌'},
+    	抖音热歌:{tid:'抖音热歌'},
         经典无损音乐合集:{tid:'经典无损音乐合集'},
         索尼音乐中国:{tid:'索尼音乐中国'},
+        推荐:{tid:'推荐'},        
         帕梅拉:{tid:'帕梅拉'},
         太极拳:{tid:'太极拳'},
         健身:{tid:'健身'},
@@ -148,14 +148,8 @@ var rule = {
                 min = duration.split(':')[0];
                 sec = duration.split(':')[1];
             } catch (e) {
-                if (duration >= 3600) {
-                    let rSAH = duration % 3600;
-                    min = Math.floor(rSAH / 60);
-                    sec = rSAH % 60;
-                } else {
-                    min = Math.floor(duration / 60);
-                    sec = duration % 60;
-                }
+                min = Math.floor(duration / 60);
+                sec = duration % 60;
             }
             if (isNaN(parseInt(duration))) {
                 return '无效输入';
@@ -241,14 +235,8 @@ var rule = {
                 min = duration.split(':')[0];
                 sec = duration.split(':')[1];
             } catch (e) {
-                if (duration >= 3600) {
-                    let rSAH = duration % 3600;
-                    min = Math.floor(rSAH / 60);
-                    sec = rSAH % 60;
-                } else {
-                    min = Math.floor(duration / 60);
-                    sec = duration % 60;
-                }
+                min = Math.floor(duration / 60);
+                sec = duration % 60;
             }
             if (isNaN(parseInt(duration))) {
                 return '无效输入';
@@ -381,7 +369,7 @@ var rule = {
         let playurls = [];
         ja.forEach(function(tmpJo) {
             let cid = tmpJo.cid;
-            let part = tmpJo.part.replace('#', '﹟').replace('$', '﹩');
+            let part = tmpJo.part.replaceAll('#', '﹟').replaceAll('$', '﹩');
             playurls.push(
                 part + '$' + aid + '_' + cid
             )
@@ -391,7 +379,7 @@ var rule = {
         playurls = [];
         relatedData.forEach(function(rd) {
             let ccid = rd.cid;
-            let title = rd.title.replace('#', '﹟').replace('$', '﹩');
+            let title = rd.title.replaceAll('#', '﹟').replaceAll('$', '﹩');
             let aaid = rd.aid;
             playurls.push(
                 title + '$' + aaid + '_' + ccid
@@ -415,14 +403,8 @@ var rule = {
                 min = duration.split(':')[0];
                 sec = duration.split(':')[1];
             } catch (e) {
-                if (duration >= 3600) {
-                    let rSAH = duration % 3600;
-                    min = Math.floor(rSAH / 60);
-                    sec = rSAH % 60;
-                } else {
-                    min = Math.floor(duration / 60);
-                    sec = duration % 60;
-                }
+                min = Math.floor(duration / 60);
+                sec = duration % 60;
             }
             if (isNaN(parseInt(duration))) {
                 return '无效输入';
