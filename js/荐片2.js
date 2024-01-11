@@ -1,7 +1,7 @@
 var rule = {
 	title: '荐片',
-	host: 'http://api2.rinhome.com',
-	//host:'http://dqkx.shuke99.com',
+	host:'http://dqkx.shuke99.com',
+	//host: 'http://api2.rinhome.com',
 	//host: 'http://apicv.kcxgtzg.cn',
 	//host:'http://api2.a.jhuunrf.cn',
 	//host:'http://api2.shifen.me',
